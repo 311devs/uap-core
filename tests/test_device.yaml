@@ -11475,6 +11475,11 @@ test_cases:
     brand: 'Generic_Android'
     model: 'EQ U8110'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; JSN-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36'
+    family: 'JSN-L21'
+    brand: 'Generic_Android'
+    model: 'JSN-L21'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; Cs-cz; Zt180) AppleWebKit/530.17 (KHTML, Like Gecko) Version/4.0 Mobile Safari/530.17'
     family: 'Zt180'
     brand: 'Generic_Android'

@@ -5267,6 +5267,9 @@ device_parsers:
   - regex: 'Android[\- ][\d]+(?:\.[\d]+)(?:\.[\d]+|)(?:;.*|); *(.+?)( Build[/ ]|\))'
     brand_replacement: 'Generic_Android'
     model_replacement: '$1'
+  - regex: 'Android[\- ][\d]+(?:;.*|); *(.+?)( Build[/ ]|\))'
+    brand_replacement: 'Generic_Android'
+    model_replacement: '$1'
 
   ##########
   # Google TV
